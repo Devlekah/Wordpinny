@@ -59,6 +59,12 @@ const words = [
   'kindom',
   'lizard',
   'monkey',
+  'education',
+  'finance',
+  'ministry',
+  'football',
+  'sport',
+  'president',
 ];
  // starting game
  function init(){
