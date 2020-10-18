@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Word</title>
+    <link rel="stylesheet" href="bootstrap.css">
+  </head>
+  <body class="bg-dark text-white">
+    <header class="bg-secondary text-center p-3 mb-5">
+      <h1>Word</h1>
+    </header>
+    <div class="container text-center">
+      <!-- IDEA:  -->
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <p class="lead">Type a given word in <span class="text-success" id="seconds">5</span> Seconds:</p>
+          <h4 class="display-2 mb-4" id="currentword">Hello</h4>
+          <div class="">
+            <input type="text" name="" class="form-control form-control-lg" placeholder="Start Typing..." id="wordinput" autofocus>
+          </div>
+          <h4 class="mt-3" id="message"></h4>
+          <!-- IDEA:  -->
+          <div class="row mt-5">
+            <div class="col-md-5">
+              <h3>Time Left: <span id="time">0</span></h3>
+            </div>
+            <div class="col-md-6">
+              <h3>Score: <span id="score">0</span></h3>
+            </div>
+          </div>
+          <!-- IDEA:  -->
+          <div class="row mt-5">
+            <div class="col-md-12">
+              <div class="card card-body bg-secondary text-white">
+                <h5>Instructions!</h5>
+                <p>Type each word in the given amount of seconds to score. To play again, just type the current word. Your score will score</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js">
+
+    </script>
+  </body>
+</html>
